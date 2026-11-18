@@ -130,3 +130,157 @@ body{
     transform: translateX(-50%);
     width: auto;
 }
+/*about*/
+.about{
+    width: 1140px;
+    height: 550px;
+    background-color: #FFF8F3;
+    margin: 130px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about-text{
+    padding: 40px 20px;
+}
+.about-text h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    font-family: "Open Sans",sans-serif;
+}
+.about-text p{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px 30px;
+    color: #757575;
+    font-family: "Open Sans",sans-serif;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+   padding: 30px 120px 30px;
+   
+}
+.info dt{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 6px;
+    font-family: "Open Sans",sans-serif;
+}
+.info dd{
+    font-size: 20px;
+   font-family: "Open Sans",sans-serif;
+   font-weight: 700;
+   color: var(--dark-color);
+   margin: 0;
+}
+
+@media (max-width: 768px) {
+    .hero-sec {
+        height: auto;
+        min-height: 100vh;
+        overflow: hidden;
+    }
+    .dev {
+        display: none;
+    }
+
+    .header {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .header-nav ul {
+        gap: 14px;
+    }
+
+    .header-nav a {
+        font-size: 13px;
+    }
+
+    .header-nav .hire-btn {
+        padding: 10px 18px;
+        border-radius: 10px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px 0;
+        gap: 0;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hi {
+        font-size: 22px;
+    }
+
+    .hero-text h1 {
+        font-size: 44px;
+    }
+
+    .desc {
+        font-size: 13px;
+        margin-bottom: 24px;
+    }
+
+    .hero-btn {
+        justify-content: center;
+    }
+    .hero-photo {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        transform: none;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1036 / 518;
+        margin-top: 80px;
+    }
+
+    .hero-photo img {
+        height: 122%;
+        width: auto;
+        left: 63%;
+        bottom: 0;
+    }
+
+    /* About */
+    .about {
+        width: auto;
+        max-width: none;
+        min-height: auto;
+        margin: 50px 20px 0;
+    }
+
+    .about-text {
+        padding: 30px 16px;
+    }
+    .about-text p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #757575;
+    margin-bottom: 40px;
+}
+
+    .info {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .info > * {
+        width: 45%;
+    }
+}
+
+
